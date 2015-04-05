@@ -28,7 +28,7 @@ SERVERMACS=`grep -v ^# <<!
 00:08:9B:E8:92:61
 !`
 SERVERUSER="admin"
-SERVERPASS="1q2w3e4R!"
+SERVERPASS=""
 SERVERSCMD="sshpass -p $SERVERPASS ssh -f $SERVERUSER@$SERVERHOST /bin/echo mem > /sys/power/state 2>/dev/null"
 SERVERWCMD="wakeonlan"
 PING="ping -c 2"
